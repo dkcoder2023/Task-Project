@@ -11,5 +11,5 @@ admin.site.register(Blog,BlogAdmin)
 class CommentAdmin(admin.ModelAdmin):
     class Meta:
         model=Comment
-        list_display=['blog', 'author','text','likes','created_at']
+        list_display=['blog', 'name','email','body','likes','created_at']
 admin.site.register(Comment,CommentAdmin)
