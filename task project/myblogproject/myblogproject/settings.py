@@ -94,7 +94,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -111,8 +111,8 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'mail.infograins.com'
+EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'kapilyadav@infograins.com'
-EMAIL_HOST_PASSWORD='Yadav@1357'
+EMAIL_HOST_USER = 'deepakchandrawanshi5050@gmail.com'
+EMAIL_HOST_PASSWORD='nwvhpbetdwjmakbp'
 EMAIL_USE_TLS = True
